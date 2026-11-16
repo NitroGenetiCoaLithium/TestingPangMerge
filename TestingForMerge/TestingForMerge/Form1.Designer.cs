@@ -31,6 +31,10 @@
             button1 = new Button();
             button2 = new Button();
             Login = new Label();
+            button3 = new Button();
+            button4 = new Button();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -60,11 +64,51 @@
             Login.TabIndex = 2;
             Login.Text = "Login";
             // 
+            // button3
+            // 
+            button3.Location = new Point(473, 121);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 3;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(484, 250);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 4;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(0, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 5;
+            label1.Text = "label1";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(470, 71);
+            label2.Name = "label2";
+            label2.Size = new Size(59, 20);
+            label2.TabIndex = 6;
+            label2.Text = "Sign up";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button4);
+            Controls.Add(button3);
             Controls.Add(Login);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -79,5 +123,9 @@
         private Button button1;
         private Button button2;
         private Label Login;
+        private Button button3;
+        private Button button4;
+        private Label label1;
+        private Label label2;
     }
 }
